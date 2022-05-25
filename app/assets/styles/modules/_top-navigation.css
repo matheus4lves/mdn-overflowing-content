@@ -1,0 +1,50 @@
+.top-navigation {
+  block-size: 4rem;
+  background-color: #353535;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-navigation__logo {
+  color: #353535;
+  line-height: 4rem;
+  padding-inline: 1.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: block;
+  background-color: yellow;
+}
+
+.top-navigation__menu ul {
+  list-style-type: none;
+  display: flex;
+  margin-inline: 0;
+  margin-block: 0;
+  padding-inline: 0;
+  padding-block: 0;
+}
+
+.top-navigation__menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  padding-inline: 1.5rem;
+  /* (4rem - 1.5rem)/2 */
+  padding-block: 1.25rem;
+  /* trick to center vertically */
+  line-height: 4rem;
+  height: 4rem;
+}
+
+.top-navigation__menu a:hover {
+  background-color: yellow;
+  color: #353535;
+}
+
+.top-navigation__menu-icon {
+  color: #fff;
+  background-color: #353535;
+  border: none;
+  font-size: 1.5rem;
+  display: none;
+}

@@ -1,5 +1,5 @@
 @import "base/_global.css";
-@import "modules/_primary-nave.css";
+@import "modules/_top-navigation.css";
 
 .box {
   border: 5px solid black;
